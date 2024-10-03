@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    margin:0;
+    padding: 0;
+    /* font-family: "Libre Baskerville", serif; */
+
+}
+header{
+height:8vh;
+background-color: var(--main-bg-color);
+}
+nav{
+    display: flex;
+     
+}
+.logo{
+    padding: 8px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+nav ul li {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+   }
+.search input{
+     height: 25px;
+    width: 30vw; 
+    border-radius:10px;
+    margin: 0 10px 0 30px;
+    padding-left: 15px;
+}
+.container{
+   /* height: calc(100vh - 20vh); */
+   display: flex;
+   justify-content: center;
+   overflow: hidden;
+}
+
+.heading{
+   background-color: whitesmoke;
+   margin: 60px 120px;
+}
+.container2{
+display: flex;
+
+}
+.container3{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+background-color: white;
+height: 45vh;
+width: 20vw;
+color: black;
+text-align: center;
+border: 2px solid white;
+border-radius: 5px;
+cursor: pointer;
+
+}
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+ 
+}
